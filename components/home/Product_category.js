@@ -62,7 +62,7 @@ const Product_category = () => {
   };
   return (
     <div className="container  mx-auto px-8 md:px-0 my-5">
-      <h4 className="text-center text-4xl font-medium underline ">
+      <h4 className="text-center text-3xl  md:text-4xl font-medium underline my-2 md:my-0">
         Top Categories
       </h4>{" "}
       <div className=" flex justify-end gap-4">
