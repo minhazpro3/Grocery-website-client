@@ -4,6 +4,7 @@ import Banner from "@/components/home/Banner";
 import Navbar from "@/components/share/Navbar";
 import Product_category from "@/components/home/Product_category";
 import Tips from "@/components/home/Tips";
+import Best_seller from "@/components/home/Best_seller";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Banner />
       <Product_category />
       <Tips />
+      <Best_seller />
     </main>
   );
 }
