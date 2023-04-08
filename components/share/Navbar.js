@@ -85,6 +85,12 @@ const Navbar = () => {
                     Shop
                   </Link>
                   <Link
+                    className="text-gray-100 hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium"
+                    href="/contact"
+                  >
+                    Contact
+                  </Link>
+                  <Link
                     className="text-gray-100 hover:bg-green-800 bg-green-700 px-3 py-2 rounded-full text-sm font-medium"
                     href="/shop"
                   >

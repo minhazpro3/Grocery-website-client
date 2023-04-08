@@ -25,73 +25,31 @@ const Footer = () => {
         <div>
           <h3 className="text-2xl underline my-2">Help & Infomation</h3>
           <div className="grid grid-flow-row">
-            <Link href="#">
-              {" "}
-              <a>About us</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Privacy policy</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Terms & conditions</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Product return</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Wholesale policy</a>
-            </Link>
+            <Link href="#"> About us</Link>
+            <Link href="#"> Privacy policy</Link>
+            <Link href="#"> Terms & conditions</Link>
+            <Link href="#"> Product return</Link>
+            <Link href="#"> Wholesale policy</Link>
           </div>
         </div>
         <div>
           <h3 className="text-2xl underline my-2">About Us</h3>
           <div className="grid grid-flow-row">
-            <Link href="#">
-              {" "}
-              <a>Pagination</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Terms & conditions</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Accessories</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Contract</a>
-            </Link>
+            <Link href="#"> Pagination</Link>
+            <Link href="#"> Terms & conditions</Link>
+            <Link href="#"> Accessories</Link>
+            <Link href="#"> Contract</Link>
           </div>
         </div>
         <div>
           <h3 className="text-2xl underline my-2">Categories</h3>
 
           <div className="grid grid-flow-row">
-            <Link href="#">
-              {" "}
-              <a>Help center</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Address store</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Privacy policy</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>Receivers & Amplifiers</a>
-            </Link>
-            <Link href="#">
-              {" "}
-              <a>HanicStore</a>{" "}
-            </Link>
+            <Link href="#"> Help center</Link>
+            <Link href="#"> Address store</Link>
+            <Link href="#"> Privacy policy</Link>
+            <Link href="#"> Receivers & Amplifiers</Link>
+            <Link href="#"> HanicStore</Link>
           </div>
         </div>
       </div>
