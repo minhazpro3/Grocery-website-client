@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Product_category = () => {
@@ -86,14 +87,16 @@ const Product_category = () => {
         {/* card 1 */}
         {products.map((product) => (
           <div key={product.id}>
-            <div className="card w-72 h-60 bg-[#F0F0F0] ">
-              <figure className="px-10 pt-10">
-                <img
-                  style={{ height: "170px" }}
-                  src={product.link}
-                  alt="Shoes"
-                  className="rounded-xl "
-                />
+            <div className="card w-60 h-48 md:w-72 md:h-60 bg-[#F0F0F0] ">
+              <figure className="md:px-10 px-6 md:pt-10 pt-6">
+                <div className="relative w-[100%] h-32 md:h-40">
+                  <Image
+                    src={product.link}
+                    alt="Shoes"
+                    fill
+                    className="rounded-xl "
+                  />
+                </div>
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title">{product.title}</h2>
